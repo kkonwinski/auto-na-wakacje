@@ -28,9 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
-	background: #666666;
+	background: #D2691E;
 }
 ol, ul {
 	list-style: none;
@@ -111,8 +112,8 @@ img{
 
 /*Pasek Nawigacyjny*/
 .navi{
-	height: 60px;
-	
+	padding: 20px 0;
+	background: blue;
 	}
 
 .navi a{
@@ -122,25 +123,42 @@ img{
 	line-height: 60px;
 	padding: 0 20px;
 	margin-left: 60px
-
 	}
 
+/*STYLE DLA SEKCJI MOTTO*/
+
+.motto{
+	padding: 20px 0;
+}
 /*Style dla nagłówka*/
+
 .top a{
 	text-decoration: none;
 	color: white;
 }
+
+/*STYLE DLA STOPKI*/
 
 footer{
 	
 	color: #FFFFFF;
 	float: left;
 }
+
 /*STYLE DLA STRONY KONTAKT*/
+
 .col-form h1, h2 {
 	font-size: 30px;
 	}
 .col-map img{
 	min-width: 500px;
 	height: 300px;
+}
+
+.offer{
+	padding: 50px 0;
+}
+.offer-text p{
+	line-height: 4;
+	margin-bottom: 40px;
 }
