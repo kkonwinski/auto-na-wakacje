@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #666666;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*STYLE GLOBALNE TEKSTU*/
+body{
+	font-family: "Times New Roman",Helvetica, sans-serif;
+	color: #000000;
+	line-height: 1.5;
+}
+
+p{
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+
+h1,h2{
+	font-size: 50px;
+	font-weight: 600;
+}
+/*STYLE KOLUMN, SEKCJI*/
+
+.col-half{
+	width: 50%;
+	float: left;
+}
+.col-one-third{
+	width: 33.33333%;
+	float: left;
+
+}
+
+section{
+	clear: both;
+	padding-top: 90px;
+	overflow: auto;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto; /*Środkowanie całego bloku*/
+}
+.center-text{
+	text-align: center; /*Rówanie tektu w poziomie*/
+}
+
+/*STYLE PRZYCISKÓW*/
+.button{
+	padding: 10px 20px;
+	margin: 10px 0;
+	text-decoration: none;/*Usunięcie podkreślenia*/
+	text-transform: uppercase;/*Duże litery*/
+	border: none;
+	border-radius: 5px;/*Zaaokrąglenie obramowania przycisku*/
+	background: #777777;
+	color: #000000;
+}
+/*STYLE DLA OBRAZKÓW*/
+
+img{
+	max-height: 350px;
+	max-width: 350px;	
+}
+
+
+/*Pasek Nawigacyjny*/
+.navi{
+	height: 60px;
+	
+	}
+
+.navi a{
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	line-height: 60px;
+	padding: 0 20px;
+	margin-left: 60px
+
+	}
+
+/*Style dla nagłówka*/
+.top a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	
+	color: #FFFFFF;
+	float: left;
+}
+/*STYLE DLA STRONY KONTAKT*/
+.col-form h1, h2 {
+	font-size: 30px;
+	}
+.col-map img{
+	min-width: 500px;
+	height: 300px;
+}
