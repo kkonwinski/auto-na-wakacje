@@ -59,12 +59,15 @@ p{
 	color: #FFFFFF;
 	font-size: 20px;
 	margin-top: 6px;
+	margin-bottom: 12px;
+	text-align: center;
 }
 
 
 h1,h2{
 	font-size: 50px;
 	font-weight: 600;
+	margin-bottom: 40px;
 }
 /*STYLE KOLUMN, SEKCJI*/
 
@@ -107,6 +110,7 @@ section{
 img{
 	max-height: 350px;
 	max-width: 350px;	
+
 }
 
 
@@ -128,13 +132,23 @@ img{
 /*STYLE DLA SEKCJI MOTTO*/
 
 .motto{
-	padding: 20px 0;
+	padding: 40px 0;
 }
+
 /*Style dla nagłówka*/
 
 .top a{
 	text-decoration: none;
 	color: white;
+}
+/*STYLE DL A SEKCJI USŁUGI*/
+
+.services p{
+	text-align: center
+}
+
+.services img{
+margin-left: 59px;
 }
 
 /*STYLE DLA STOPKI*/
@@ -143,6 +157,7 @@ footer{
 	
 	color: #FFFFFF;
 	float: left;
+	margin-top: 40px
 }
 
 /*STYLE DLA STRONY KONTAKT*/
@@ -153,12 +168,4 @@ footer{
 .col-map img{
 	min-width: 500px;
 	height: 300px;
-}
-
-.offer{
-	padding: 50px 0;
-}
-.offer-text p{
-	line-height: 4;
-	margin-bottom: 40px;
 }
